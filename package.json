@@ -1,0 +1,31 @@
+{
+	"name": "sofp-example-server",
+	"description": "This is an example SOFP server assembly (see sofp-core).",
+	"version": "0.6.0",
+	"homepage": "https://github.com/vaisala-oss/sofp-example-server",
+	"author": "Vaisala Corporation",
+	"license": "MIT",
+	"main": "index.js",
+	"engines": {
+		"node": "^8.11.4"
+	},
+	"scripts": {
+		"start": "node ./index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:vaisala-oss/sofp-example-server.git"
+	},
+	"contributors": [
+		{
+			"name": "Sampo Savolainen",
+			"email": "sampo.savolainen@spatineo.com"
+		}
+	],
+	"dependencies": {
+		"sofp-core": "0.6.0",
+		"sofp-lib": "0.5.0",
+		"sofp-example-authorizer": "0.6.0",
+		"sofp-example-backend": "0.5.0"
+	}
+}
