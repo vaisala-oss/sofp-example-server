@@ -11,7 +11,7 @@ var params = {
   contextPath:   '/sofp',
   accessLogPath: null,
   backends:      [ExampleBackend],
-  authorizerProvider: ExampleAuthorizationProvider.authorizerProvider
+  //authorizerProvider: ExampleAuthorizationProvider.authorizerProvider
 }
 
 sofp.run(params);
